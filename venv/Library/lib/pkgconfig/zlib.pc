@@ -1,0 +1,13 @@
+prefix=C:/codes/yt_summarizer_llm/venv/Library
+exec_prefix=C:/codes/yt_summarizer_llm/venv/Library
+libdir=C:/codes/yt_summarizer_llm/venv/Library/lib
+sharedlibdir=C:/codes/yt_summarizer_llm/venv/Library/lib
+includedir=C:/codes/yt_summarizer_llm/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
